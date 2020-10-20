@@ -1,0 +1,102 @@
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(50,50,50);
+	line-height: 1,8;
+	font-family: courrier;
+	font-weight: lighter;
+	
+}
+h1, h2, h3 {
+	font-family: Helvetica;
+}
+h1 {
+	color: rgb(0,0,128);
+	
+	font-weight: 100;
+	Font-size: 30px;
+}
+h2 {
+	color: rgb(0,0,128);
+	font-size: 25px
+	
+	border:
+}
+h3 {
+	color: rgb(0,0,128);
+	font-size: 20px;
+	font-weight: lighter;
+
+}
+a{
+	text-decoration: none;
+	color; rgb(230,187,173);
+	font-size: 50px;
+	text-align: center;
+
+}
+a:hover {
+	color: black;
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.img-circle{
+	border-radius:50%;
+}
+.general-box {
+	width: 600px;
+	margin: 50px auto;	
+}
+
+@media (max-width: 960px) {
+	.general-box {
+	width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.general-box {
+	width: 500xp;
+	}
+}
+@media (max-width: 540px) {
+	.general-box {
+	width: 300px;
+	}
+}	
+.box-white{
+	background-color: white;
+	border-radius: 4px;
+	padding: 60px;
+	margin:50px 0px;
+	box-shadow: 0px 10px 30px rbga(0,0,0,0.2);
+	text-align: center;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left:0px;
+	
+
+}
+
+#passions {
+		background-color: white;
+		border-radius: 2px;
+		padding: 5px;
+		margin:50px 0px;
+		box-shadow: 0px 10px 30px rbga(0,0,0,0.2);
+		text-align: center;
+		letter-spacing: 5px
+	
+}
+
+#btn-color {
+	color; rgb(230,187,173);
+	font-size: 20px;
+	text-align: center;
+	
+
+}
